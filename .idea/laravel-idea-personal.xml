@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelIdeaPersonalSettings">
+    <option name="generationStringOptionValues">
+      <map>
+        <entry key="0b1892ba-bbfb-4621-af3d-51abe49678e9" value="Order" />
+        <entry key="9a7c1bec-c21e-4269-92aa-f4d9a5668d94" value="Discount" />
+        <entry key="ab150df3-b5c0-46b3-9801-4f035fc70b3e" value="ProductTag" />
+        <entry key="c74caa5e-a735-44a5-b399-fbf004fde7d9" value="Cart" />
+        <entry key="createBladeComponent.type" value="Class and blade" />
+        <entry key="createHttpException.code" value="422" />
+        <entry key="createModel.createMigration" value="1" />
+        <entry key="createNotification.type" value="database" />
+      </map>
+    </option>
+    <option name="lastContentRoot" value="$PROJECT_DIR$" />
+  </component>
+</project>

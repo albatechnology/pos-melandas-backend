@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelIdeaMainSettings">
+    <option name="customGenerations">
+      <list>
+        <CustomGeneration>
+          <option name="baseClass" value="App\Http\Controllers\API\V1" />
+          <option name="namespace" value="Http\Controllers\API\V1" />
+          <option name="parameters">
+            <list>
+              <CustomParameter>
+                <option name="id" value="ab150df3-b5c0-46b3-9801-4f035fc70b3e" />
+                <option name="optional" value="false" />
+                <option name="templateVariableName" value="MODEL_CLASS" />
+                <option name="title" value="Model Name" />
+                <option name="type" value="string" />
+              </CustomParameter>
+            </list>
+          </option>
+          <option name="templateName" value="Custom API Controller" />
+          <option name="title" value="API controller" />
+        </CustomGeneration>
+        <CustomGeneration>
+          <option name="baseClass" value="App\Classes\DocGenerator\BaseResource" />
+          <option name="classSuffix" value="Resource" />
+          <option name="namespace" value="Http\Resources\V1" />
+          <option name="parameters">
+            <list>
+              <CustomParameter>
+                <option name="id" value="9a7c1bec-c21e-4269-92aa-f4d9a5668d94" />
+                <option name="optional" value="false" />
+                <option name="templateVariableName" value="MODEL_CLASS" />
+                <option name="title" value="Model Name" />
+                <option name="type" value="string" />
+              </CustomParameter>
+            </list>
+          </option>
+          <option name="templateName" value="Custom API Resource" />
+          <option name="title" value="API resource" />
+        </CustomGeneration>
+        <CustomGeneration>
+          <option name="baseClass" value="App\Classes\DocGenerator\BaseApiRequest" />
+          <option name="classSuffix" value="Request" />
+          <option name="namespace" value="Http\Requests\API\V1" />
+          <option name="parameters">
+            <list>
+              <CustomParameter>
+                <option name="id" value="0b1892ba-bbfb-4621-af3d-51abe49678e9" />
+                <option name="templateVariableName" value="MODEL_CLASS" />
+                <option name="title" value="Model var" />
+                <option name="type" value="string" />
+              </CustomParameter>
+            </list>
+          </option>
+          <option name="templateName" value="Custom API Request" />
+          <option name="title" value="API request" />
+        </CustomGeneration>
+        <CustomGeneration>
+          <option name="baseClass" value="App\Enums\BaseEnum" />
+          <option name="namespace" value="Enums" />
+          <option name="templateName" value="Enum class" />
+          <option name="title" value="Create Enum" />
+        </CustomGeneration>
+        <CustomGeneration>
+          <option name="baseClass" value="Tests\Unit\API\Doc\BaseApiDocTest" />
+          <option name="classSuffix" value="Test" />
+          <option name="namespace" value="App\Tests\Unit\API\Doc" />
+          <option name="parameters">
+            <list>
+              <CustomParameter>
+                <option name="id" value="c74caa5e-a735-44a5-b399-fbf004fde7d9" />
+                <option name="optional" value="false" />
+                <option name="templateVariableName" value="MODEL_CLASS" />
+                <option name="title" value="model" />
+                <option name="type" value="string" />
+              </CustomParameter>
+            </list>
+          </option>
+          <option name="templateName" value="API doc unit test" />
+          <option name="title" value="Api doc unit test class" />
+        </CustomGeneration>
+      </list>
+    </option>
+    <option name="frameworkFound" value="true" />
+    <option name="generationStringSettings">
+      <map>
+        <entry key="createModel:namespace" value="Models" />
+      </map>
+    </option>
+    <option name="helperCodeCreateHighOrderCollectionProxies" value="true" />
+    <option name="helperCodeModelsPlace" value="file_with_mixin" />
+    <option name="userClassName" value="App\Models\User" />
+  </component>
+</project>
